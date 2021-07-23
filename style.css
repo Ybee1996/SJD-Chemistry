@@ -18,7 +18,7 @@ h1{
     margin: 0px;
     font-size: 40px;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 2.5%;
     font-weight: bold;
 }
 
@@ -48,11 +48,9 @@ a:hover{
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    width: 100%;
     background-color: #00395b;
     font-size: 20px;
     color: white;
-    position: fixed;
     z-index: 1000;
 }
 
@@ -110,7 +108,7 @@ a:hover{
 header{
     display: flex;
     text-align: center;
-    border-bottom: solid rgb(119, 18, 18, 0.836);
+    border-bottom: solid rgb(119, 18, 18, 0.836) 0.6px;
     color: black;  
     padding-bottom: 10px;
 }
@@ -131,7 +129,7 @@ footer{
     font-size: 25px;
     line-height: 50px;
     font-style: italic;
-    border-top: solid rgb(119, 18, 18, 0.836);
+    border-top: solid rgb(119, 18, 18, 0.836) 0.6px;
     position: absolute;
     bottom: 1%;
 }
@@ -165,27 +163,15 @@ footer{
     margin-top: 50px;
     margin-bottom: 50px;
     border-style: solid;
+    border-width: 1px;
     color: rgba(119, 18, 18, 0.836);
     text-decoration: none;
   }
 
-.infoblocks-button-large{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    font-size: 30px;
-    background-color: rgb(10, 43, 75);
-    width: 600px;
-    height: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-style: solid;
-    border-color: black;
-    color: white;
-}
 
 .infoblocks-button:hover{
     border-style: none;
     text-decoration: underline;
+    background-color: rgb(226, 162, 42);
+    color: rgba(119, 18, 18, 0.836);
 }
